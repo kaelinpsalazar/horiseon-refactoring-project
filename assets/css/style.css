@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* here is the background color for the whole page */
 body {
     background-color: #d9dcd6;
 }
@@ -36,6 +37,7 @@ body {
     list-style-type: none;
 }
 
+/* The header element here allowed for a readable and easily accesable nav bar.  */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -49,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* The below picture was the main background element for the first part of the page.  */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,7 +65,7 @@ p {
     float: left;
     margin-right: 25px;
 }
-
+/* The above and below classes allowed for the content to be staggered and made for a clean and easy to read web page */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -91,13 +93,13 @@ p {
     color: #ffffff;
 }
 
-/* As above, so below. */
+/* This kept all the h3 elements at the same size and allowed us to have an easy to read and clean looking web page. */
 .h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* See above. */
+/* This class was used to affect multiple images in the page, condensing the code and allowing for cleaner code. */
 .benefit-one img {
     display: block;
     margin: 10px auto;
@@ -105,7 +107,7 @@ p {
 }
 
 
-
+/* This is a combined class as well, it allows for cleaner code and avoids redundancy */
 .search {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,7 +116,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* This whole section of corrections was avoiding redundancy and getting rid of uneeded code. */
+/* This image section affects multiple images on the page, it makes the code cleaner to use one class for all three pictures. */
 .search img {
     max-height: 200px;
 }
